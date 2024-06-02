@@ -1,0 +1,45 @@
+body{
+    background-color: #aaa5ff;
+    color: #52308b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.top-section{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+/* left and right buttons */
+.slider-control{
+    font-size: 148px;
+    cursor: pointer;
+}
+
+.frame{
+    width: 1024px;
+    height: 768px;
+    overflow: hidden;
+    display: flex;
+}
+
+.slider{    
+    display: flex;
+    transition: all 1s ease;
+}
+
+.slider .slider-image{
+    width: 100%;
+    height: 100%;
+    object-fit: conver;
+}
+
